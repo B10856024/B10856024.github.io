@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        *{                           
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .header{
+            height: 50px;
+            
+            position: relative;
+            background: linear-gradient(to right,red,green,#FFD700,yellow,blue,pink,#8B00FF,#00FFFF,#4B0080);
+        }
+        .btn{
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            display:block;
+            position:absolute ;
+            top: 5px;
+            right: 10px;
+        }
+        .btn span{
+            width: 1px;
+            height: 1px;
+            opacity: 0;
+            display:block;
+            overflow: hidden;
+        }
+        .btn::before{
+            content:'';
+            width: 36px;
+            height: 2px;
+            background-color: gray;
+            position:absolute ;
+            top: 0;
+            bottom: 0;
+            left: 2px;
+            margin: auto;
+            box-shadow: 0px 8px 0px #aaa, 0px -8px 0px #aaa; 
+        }
+        nav{
+            width: 40%;
+            height: 100vh;
+            
+            background:#E0FFFF;
+            position:absolute ;
+            top: 50px;
+            left: -100%;
+        }
+
+        nav a{
+            display:block;
+            text-decoration: none;
+            color: black;
+            font-weight:bolder;
+            padding: 10px 20px;
+            border-bottom: 1px solid #4169E1;
+        }
+        #menu{
+            position:absolute ;
+        }
+        #menu:checked ~ .header nav{
+            left: 0;
+        }
+        @media screen and (min-width: 768px) {
+            .btn{
+                display: none;
+            }
+            .header{
+                display:flex;
+                justify-content: space-between;
+                align-items: center;               
+            }
+            nav{
+                position: relative;
+                left: 0;
+                display: flex;
+                width: auto;
+                height: auto;
+                top: 0;
+                background-color: transparent;
+            }
+            nav a{
+                border-bottom: none;
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+            .item-group{
+                display: flex;
+            }
+        }
+
+        img{
+            vertical-align: bottom;
+        }
+        .item-group{
+            width: 100%;
+            max-width: 1400px;
+            margin: auto;
+        }
+        .bg img{
+            width: 100%;
+        }
+        .footer{
+            background-color: #333;
+            color: #aaa;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .title h2{
+            text-align: center;
+            font-size: 46px;
+        }
+        .title {
+            padding:20px 10px ;
+            background-color: #ccc;
+            margin:0 0px 10px;
+        }
+        .title p{
+            font-size: 22px;
+            text-align: center;
+        }
+        .item{
+            margin:0 10px 20px;
+        }
+        .item .text h3{
+            font-size: 24px;
+            text-align: center;
+        }
+        .item .pic img{
+            width: 100%;
+        }
+        .two{
+            margin:60px 0;
+            background-color: #ffa;
+        }
+       
+
+
+
+
+    </style>
+</head>
+<body>
+    <input type="checkbox" name="" id="menu">
+
+    <div class= "header">
+        <h1 class="logo">
+            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/zh/thumb/6/61/ONE_PIECE_Logo.svg/420px-ONE_PIECE_Logo.svg.png" height="70" width="150">
+        </h1>
+        <label for="menu" class="btn"> 
+            <span>選單</span>
+        </label>
+        
+        <nav>
+            <a href="#1">關於海賊王</a>
+            <a href="#2">人物介紹</a>
+            <a href="#3">設計</a>
+            <a href="#4">漫畫與動畫</a>
+            <a href="#5">設計</a>
+        </nav>
+        
+    </div>
+
+
+    <div class="bg">
+        <img src=https://img.zcool.cn/community/012f735cb3d41da8012141682ce08e.jpg@1280w_1l_2o_100sh.jpg>
+    </div>
+    <a name="1">
+    <div class="about">
+        <div class="wrap">
+            <div class="title">
+                <h2>關於海賊王</h2>
+                <p></p>
+            </div>
+            <div class="item-group">
+                <div class="item">
+                    <div class="pic">
+                       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQyKgbXPGyuOhRwMhViFyB4MSDQr7JfSluZL4L5_ZfBZMc3Gp-c&usqp=CAU" height="300px" width="500px" >
+                    </div>
+                    <div class="text">
+                        <h3>1</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pic">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTPBaMnZIy-j4-8PByW-aBdoLZL7y3n1oVjgfBC0RZbXEIBvtqV&usqp=CAU">
+                    </div>
+                    <div class="text">
+                        <h3>2</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pic">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFXy_aCWznjsm47CLkBB6l_GMpgnEz_6ptfDBJ0AV30-qGAXDh&usqp=CAU">
+                    </div>
+                    <div class="text">
+                        <h3>3</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pic">
+                        <img src="https://static.wixstatic.com/media/b09d22_e79d4eb34584422c971812e4b43b60b7~mv2.jpg/v1/fill/w_400,h_267,al_c,q_80,usm_0.66_1.00_0.01/b09d22_e79d4eb34584422c971812e4b43b60b7~mv2.webp">
+                    </div>
+                    <div class="text">
+                        <h3>4</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
+
+
+
+
+   
+    <div class="two">
+        <div class="wrap">
+            <div class="item-group">
+                <div class="item">
+                    <div class="pic">
+                        <img src="https://cdn-origin.cool-style.com.tw/cool/2019/04/STAMPEDE_TSR3_Still030-Copy-1024x576.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>5</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="footer">
+        &copy; copyright 2020 by B10856024
+</div>
+</body>
+</html>
