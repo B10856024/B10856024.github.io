@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align:center;
+            background: url(ASL.jpeg) center center fixed no-repeat;
+        }
+        .rwdtable {
+            display: table;
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 5px;
+            
+        }
+        
+        .rwdtr,
+        .rwdtitle_gorup {
+            display: table-row;
+        }
+        
+        .rwdth,
+        .rwdtd {
+            display: table-cell;
+            vertical-align: top;
+            text-align: center;
+            padding: 5px 10px;
+        }
+        
+        .rwdtr:nth-of-type(odd),
+        .rwdtitle_gorup:nth-of-type(odd) {
+            background-color: #ECF5FF;
+            
+        }
+   
+        .rwdth {
+            background-color: #f5e72d;
+            color: green;
+            font-weight:bolder;
+            
+        }
+        
+        @media(max-width:767.98px) {
+            .rwdtable {
+                border: 1px solid #f5e72d;
+            }
+            .rwdtable {
+                border-spacing: 0px;
+            }
+            .rwdtr:first-of-type {
+                display: none;
+            }
+            .rwdtd {
+                display: table;
+                padding: 0;
+            }
+            .rwdtd:before {
+                content: attr(data-th);
+                display: table-cell;
+                font-weight: bold;
+                color: #fff;
+                padding: 3px 10px;
+                white-space: nowrap;
+                text-align: left !important;
+                width: 60px;
+                background-color: #f5e72d;
+                vertical-align: top;
+            }
+            .rwdtd span {
+                padding: 3px 10px;
+                display: inline-block;
+            }
+            .rwdtr:nth-of-type(odd),
+            .rwdtitle_gorup:nth-of-type(odd) {
+                background-color: #e8f6ff;
+                
+            }
+        }
+        .footer{
+            background-color: #BEBEBE;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .a{
+            color: white;  
+        }
+        
+    </style>
+</head>
+<body>
+    <h1><font color="blue">單行本出版資訊</font></h1>
+    <div class="rwdtable">
+        <div class="rwdtr">
+            <div class="rwdth">卷數</div>
+            <div class="rwdth">標題</div>
+            <div class="rwdth">出版日期</div>
+            <div class="rwdth">ISBN</div>
+            <div class="rwdth">書籍封面</div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>01</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>ROMANCE DAWN〜冒險的黎明〜</p><br>（ROMANCE DAWN〜冒険の夜明け〜）</span></div>
+            <div class="rwdtd" data-th="出版日期" ><span><p>2003年10月25日</p><br>（1997年12月24日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2579-5</p><br>（978-4-08-872509-3）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13701/JC13701.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>02</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>VERSUS! 巴其海賊團</p><br>（VERSUS!!バギー海賊団）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（1998年4月3日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2580-9</p><br>（978-4-08-872544-4）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13702/JC13702.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>03</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>假不了的東西</p><br>（偽れぬもの）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（1998年6月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2581-7</p><br>（978-4-08-872569-7）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13703/JC13703.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>04</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>弦月</p><br>（三日月）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（1998年8月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2582-5</p><br>（978-4-08-872594-9）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13704/JC13704.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>05</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>鐘聲為了某人而響起</p><br>（誰がために鐘は鳴る）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（1998年10月2日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2583-3</p><br>（978-4-08-872619-9）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13705/JC13705.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>06</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>發誓</p><br>（誓い）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（1998年12月3日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2584-1</p><br>（978-4-08-872642-7）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13706/JC13706.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>07</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>死老頭</p><br>（クソジジイ）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（1999年3月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2585-X</p><br>（978-4-08-872683-0）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13707/JC13707.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>08</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>我不會死的</p><br>（死なねぇよ）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（1999年4月30日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2586-8</p><br>（978-4-08-872712-7）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13708/JC13708.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>09</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>眼淚</p><br>（涙）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（1999年7月2日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2587-6</p><br>（978-4-08-872735-6）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13709/JC13709.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>10</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>OK, Let's STAND UP!</p><br>（OK, Let's STAND UP!）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（1999年10月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2588-4</p><br>（978-4-08-872773-8）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13710/JC13710.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>11</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>東方藍最壞的惡人</p><br>（東一番の悪）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（1999年12月2日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2721-6</p><br>（978-4-08-872797-4）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13711/JC13711.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>12</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>傳說就此開始</p><br>（伝説は始まった）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（2000年2月2日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2722-4</p><br>（978-4-08-872822-3）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13712/JC13712.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>13</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>沒關係!!!</p><br>（大丈夫!!!）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（2000年4月28日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2723-2</p><br>（978-4-08-872863-6）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13713/JC13713.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>14</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>本能</p><br>（本能）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（2000年7月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2724-0</p><br>（978-4-08-872888-9）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13714/JC13714.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>15</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>筆直前進!!!</p><br>（まっすぐ!!!）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（2000年9月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2725-9</p><br>（978-4-08-873009-7）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13715/JC13715.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>16</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>被繼承的意志</p><br>（受け継がれる遺志）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（2000年12月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2726-7</p><br>（978-4-08-873045-5）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13716/JC13716.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>17</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>西爾爾克的櫻花</p><br>（ヒルルクの桜）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（2001年2月2日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2727-5</p><br>（978-4-08-873073-8）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13717/JC13717.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>18</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>艾斯登場</p><br>（エース登場）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（2001年4月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2728-3</p><br>（978-4-08-873100-1）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13718/JC13718.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>19</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>叛亂</p><br>（反乱）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（2001年7月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2729-1</p><br>（978-4-08-873133-9）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13719/JC13719.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>20</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>決戰阿爾巴那</p><br>（決戦はアルバーナ）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（2001年9月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2730-5</p><br>（978-4-08-873158-2）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13720/JC13720.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>21</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>理想鄉</p><br>（理想郷）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（2001年12月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2751-8</p><br>（978-4-08-873194-0）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13721/JC13721.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>22</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>HOPE!!</p><br>（HOPE!!）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（2002年2月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2752-6</p><br>（978-4-08-873222-0）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13722/JC13722.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>23</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>薇薇的冒險</p><br>（ビビの冒険）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（2002年4月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2753-4</p><br>（978-4-08-873252-7）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13723/JC13723.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>24</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>人的夢想</p><br>（人の夢）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（2002年7月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2754-2</p><br>（978-4-08-873282-4）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13724/JC13724.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>25</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>值一億的男人</p><br>（一億の男）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（2002年9月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2755-0</p><br>（978-4-08-873313-5）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13725/JC13725.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>26</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>神之島的冒險</p><br>（神の島の冒険）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（2002年12月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2756-9</p><br>（978-4-08-873336-4）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13726/JC13726.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>27</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>序曲</p><br>（序曲）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月25日</p><br>（2003年2月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2757-7</p><br>（978-4-08-873379-1）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13727/JC13727.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>28</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>「戰鬼」瓦夷帕</p><br>（「戦鬼」ワイパー）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年5月2日</p><br>（2003年5月1日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-0868-8</p><br>（978-4-08-873418-7）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13728/JC13728.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>29</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>聖譚曲</p><br>（聖譚曲）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年7月5日</p><br>（2003年7月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-1010-0</p><br>（978-4-08-873480-4）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13729/JC13729.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>30</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>狂想曲</p><br>（狂想曲）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年10月10日</p><br>（2003年10月3日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-2760-7</p><br>（978-4-08-873502-3）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13730/JC13730.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>31</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>在這裡</p><br>（ここにいる）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2003年12月25日</p><br>（2003年12月19日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-3645-2</p><br>（978-4-08-873551-1）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13731/JC13731.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>32</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>LOVE SONG 島的歌聲</p><br>（島の歌声）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2004年4月5日</p><br>（2004年3月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-3845-5</p><br>（978-4-08-873571-9）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13732/JC13732.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>33</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>DAVY BACK FIGHT!!</p><br>（DAVY BACK FIGHT!!）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2004年7月25日</p><br>（2004年6月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-1010-0</p><br>（978-4-08-873593-1）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13733/JC13733.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>34</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>「水都」水之七島</p><br>（「水の都」ウォーターセブン）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2004年9月25日</p><br>（2004年8月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-5208-3</p><br>（978-4-08-873638-9）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13734/JC13734.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>35</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>船長</p><br>（船長）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2004年11月25日</p><br>（2004年11月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-5209-1</p><br>（978-4-08-873667-9）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13735/JC13735.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>36</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>第九個正義</p><br>（9番目の正義）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2005年3月25日</p><br>（2005年2月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-5880-4</p><br>（978-4-08-873768-3）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13736/JC13736.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>37</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>湯姆先生</p><br>（トムさん）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2005年6月5日</p><br>（2005年4月28日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-6372-7</p><br>（978-4-08-873802-4）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13737/JC13737.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>38</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>火箭人!!</p><br>（ロケットマン!!）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2005年8月5日</p><br>（2005年7月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-6373-5</p><br>（978-4-08-873839-0）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13738/JC13738.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>39</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>爭奪戰</p><br>（争奪戦）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2006年1月15日</p><br>（2005年11月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-7248-3</p><br>（978-4-08-873872-7）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13739/JC13739.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>40</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>檔</p><br>（ギア）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2006年3月5日</p><br>（2005年12月26日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-7249-1</p><br>（978-4-08-874003-4）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13740/JC13740.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>41</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>宣戰布告</p><br>（宣戦布告）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2006年6月5日</p><br>（2006年4月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-7923-2</p><br>（978-4-08-874047-8）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13741/JC13741.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>42</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>海賊 VS CP9</p><br>（海賊 VS CP9）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2006年8月5日</p><br>（2006年7月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-7924-0</p><br>（978-4-08-874127-7）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13742/JC13742.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>43</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>英雄傳說</p><br>（英雄伝説）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2006年9月25日</p><br>（2006年9月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-8810-X</p><br>（978-4-08-874149-9）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13743/JC13743.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>44</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>回去吧</p><br>（帰ろう）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2007年1月25日</p><br>（2006年12月4日	）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-8811-9</p><br>（978-4-08-874287-8）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13744/JC13744.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>45</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>我了解你們心中的想法</p><br>（心中お察しする）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2007年5月25日</p><br>（2007年3月2日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-9465-3</p><br>（978-4-08-874314-1）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13745/JC13745.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>46</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>鬼魂島的冒險</p><br>（ゴースト島の冒険）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2007年8月30日</p><br>（2007年7月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-9466-0</p><br>（978-4-08-874382-0）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13746/JC13746.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>47</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>多雲偶陣骨</p><br>（くもり時々ホネ）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2007年10月30日</p><br>（2007年9月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-10-0370-2</p><br>（978-4-08-874411-7）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13747/JC13747.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>48</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>歐斯的冒險</p><br>（オーズの冒険）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2008年1月20日</p><br>（2007年12月4日	）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-10-0371-9</p><br>（978-4-08-874442-1）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13748/JC13748.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>49</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>惡夢魯夫</p><br>（ナイトメア・ルフィ）</span></div>
+            <div class="rwdtd" data-th="出版日期"><p>2008年4月20日</p><span><br>（2008年3月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-10-1214-8</p><br>（978-4-08-874485-8）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13749/JC13749.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>50</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>再次抵達</p><br>（再び辿りつく）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2008年7月30日</p><br>（2008年6月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-10-1215-5</p><br>（978-4-08-874521-3）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13750/JC13750.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>51</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>11位超新星</p><br>（11人の超新星）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2008年10月15日</p><br>（2008年9月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-10-2042-6</p><br>（978-4-08-874563-3）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13751/JC13751.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>52</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>羅傑與雷利</p><br>（ロジャーとレイリー）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2009年1月10日</p><br>（2008年12月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-10-2043-3</p><br>（978-4-08-874602-9）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13752/JC13752.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>53</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>王的資質</p><br>（王の資質）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2009年4月1日</p><br>（2009年3月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-10-2974-0</p><br>（978-4-08-874640-1）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13753/JC13753.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>54</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>已經無人能夠阻止</p><br>（もう誰にも止められない）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2009年7月1日</p><br>（2009年6月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-10-3494-2</p><br>（978-4-08-874662-3）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13754/JC13754.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>55</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>地獄裡的救贖</p><br>（地獄に仏）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2009年10月9日</p><br>（2009年9月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-10-3937-4</p><br>（978-4-08-874727-9）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13755/JC13755.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>56</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>謝謝你</p><br>（ありがとう）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2010年1月7日</p><br>（2009年12月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-10-4428-6</p><br>（978-4-08-874761-3）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13756/JC13756.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>57</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>頂點決戰</p><br>（頂上決戦）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2010年3月25日</p><br>（2010年3月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-10-4989-2</p><br>（978-4-08-870010-6）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13757/JC13757.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>58</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>這個時代被稱為“白鬍子”</p><br>（この時代の名を“白ひげ〟と呼ぶ）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2010年7月16日</p><br>（2010年6月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-11-5940-2</p><br>（978-4-08-870045-8）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13758/JC13758.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>59</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>波特卡斯·D·艾斯之死</p><br>（ポートガス・D・エース死す）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2010年8月27日</p><br>（2010年8月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-10-6178-8</p><br>（978-4-08-870083-0）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13759/JC13759.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>60</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>弟弟啊</p><br>（弟よ）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2010年12月15日</p><br>（2010年11月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-10-6072-5</p><br>（978-4-08-870125-7）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13760/JC13760.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>61</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>ROMANCE DAWN for the new world ～前往新世界之冒險的黎明～</p><br>（ROMANCE DAWN for the new world ～新しい世界への冒険の夜明け～）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2011年3月22日</p><br>（2011年2月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-10-7204-3</p><br>（978-4-08-870175-2）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13761/JC13761.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>62</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>魚人島的冒險</p><br>（魚人島の冒険）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2011年7月1日</p><br>（2011年5月2日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-10-7860-1</p><br>（978-4-08-870217-9）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13762/JC13762.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>63</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>乙姬與泰格</p><br>（オオトヒメとタイガー）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2011年9月20日</p><br>（	2011年8月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-10-8331-5</p><br>（978-4-08-870270-4）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13763/JC13763.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>64</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>10萬 v.s. 10</p><br>（10万VS10）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2012年1月9日</p><br>（2011年11月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-10-8964-1</p><br>（978-4-08-870301-5）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13764/JC13764.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>65</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>歸零</p><br>（ゼロに）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2012年4月2日</p><br>（2012年2月3日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-10-9581-3</p><br>（978-4-08-870367-1）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13765/JC13765.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>66</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>通向太陽之路</p><br>（タイヨウへと続く道）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2012年6月15日</p><br>（2012年5月2日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>78-986-317-069-3</p><br>（978-4-08-870416-6）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13766/JC13766.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>67</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>COOL FIGHT</p><br>（COOL FIGHT）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2012年9月24日</p><br>（2012年8月3日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-317-693-0</p><br>（978-4-08-870476-0）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13767/JC13767.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>68</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>海賊同盟</p><br>（海賊同盟）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2012年12月12日</p><br>（2012年11月2日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-324-363-2</p><br>（978-4-08-870531-6）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13768/JC13768.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>69</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>SAD</p><br>（SAD）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2013年3月29日</p><br>（2013年3月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-332-223-8</p><br>（ 978-4-08-870614-6）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13769/JC13769.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>70</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>多佛朗明哥現身</p><br>（ドフラミンゴ現る）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2013年7月8日</p><br>（2013年6月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-332-847-6</p><br>（978-4-08-870660-3）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13770/JC13770.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>71</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>特異人們的鬥技場</p><br>（曲者達のコロシアム）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2013年9月9日</p><br>（2013年8月2日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-337-193-9</p><br>（978-4-08-870781-5）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13771/JC13771.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>72</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>多雷斯羅薩被遺忘的事物</p><br>（ドレスローザの忘れ物）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2013年12月11日</p><br>（2013年11月1日	）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-337-748-1</p><br>（978-4-08-870833-1）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13772/JC13772.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>73</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>多雷斯羅薩SOP作戰</p><br>（ドレスローザＳＯＰ作戦）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2014年3月26日</p><br>（2014年3月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-348-670-1</p><br>（978-4-08-880022-6）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13773/JC13773.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>74</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>我會永遠陪在妳身邊</p><br>（いつでもキミのそばにいる）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2014年6月25日</p><br>（2014年6月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-365-144-4</p><br>（978-4-08-880069-1）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13774/JC13774.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>75</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>我的報恩</p><br>（おれの恩返し）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2014年10月9日</p><br>（2014年9月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-365-890-0</p><br>（978-4-08-880171-1）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13775/JC13775.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>76</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>別管，前進就對了</p><br>（構わず進め）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2015年1月16日</p><br>（2014年12月27日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-382-451-0</p><br>（978-4-08-880219-0）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13776/JC13776.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>77</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>微笑</p><br>（スマイル）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2015年4月24日</p><br>（2015年4月3日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-431-228-3</p><br>（978-4-08-880326-5）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13777/JC13777.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>78</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>邪惡領袖</p><br>（悪のカリスマ）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2015年7月24日</p><br>（2015年7月3日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-431-851-3</p><br>（978-4-08-880422-4）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13778/JC13778.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>79</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>LUCY!</p><br>（LUCY!!）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2015年11月20日</p><br>（2015年10月3日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-462-383-9</p><br>（978-4-08-880496-5）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13779/JC13779.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>80</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>開幕宣言</p><br>（開幕宣言）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2016年1月27日</p><br>（2015年12月28日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-462-783-7</p><br>（978-4-08-880578-8）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13780/JC13780.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>81</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>與貓蝮蛇大哥見面</p><br>（ネコマムシの旦那に会いに行こう）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2016年4月27日</p><br>（2016年4月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-470-205-3</p><br>（978-4-08-880648-8）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13781/JC13781.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>82</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>騷動的世界</p><br>（ざわつく世界）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2016年7月25日</p><br>（2016年7月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-470-666-2</p><br>（978-4-08-880726-3）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13782/JC13782.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>83</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>海賊「四皇」夏洛特・莉莉</p><br>（海賊「四皇」シャーロット・リンリン）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2016年11月23日</p><br>（2016年11月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-482-351-2</p><br>（978-4-08-880801-7）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13783/JC13783.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>84</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>魯夫vs香吉士</p><br>（ルフィVSサンジ）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2017年2月24日</p><br>（2017年2月3日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-482-805-0</p><br>（978-4-08-881002-7）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13784/JC13784.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>85</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>大騙子</p><br>（ウソつき）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2017年5月24日</p><br>（2017年5月2日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-486-287-0</p><br>（978-4-08-881070-6）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13785/JC13785.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>86</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>暗殺四皇作戰</p><br>（「四皇暗殺作戦」）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2017年9月1日</p><br>（2017年8月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-986-486-732-5</p><br>（978-4-08-881198-7）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13786/JC13786.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>87</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>不甜</p><br>（甘くない）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2017年11月24日</p><br>（2017年11月2日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-957-26-0161-7</p><br>（978-4-08-881225-0）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13787/JC13787.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>88</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>獅子</p><br>（獅子）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2018年3月23日</p><br>（2018年3月2日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-957-26-0781-7</p><br>（978-4-08-881362-2）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13788/JC13788.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>89</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>BADEND MUSICAL</p><br>（BADEND MUSICAL）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2018年6月25日</p><br>（2018年6月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-957-26-1269-9</p><br>（978-4-08-881496-4）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13789/JC13789.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>90</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>聖地馬力喬亞</p><br>（聖地マリージョア）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2018年9月26日</p><br>（2018年9月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-957-26-1822-6</p><br>（978-4-08-881562-6）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13790/JC13790.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>91</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>武士國度的冒險</p><br>（侍の国の冒險）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2018年12月24日</p><br>（2018年12月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-957-26-2297-1</p><br>（978-4-08-881644-9）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13791/JC13791.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>92</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>花魁小紫登場</p><br>（花魁小紫登場）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2019年3月25日</p><br>（2019年3月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-957-26-2898-0</p><br>（978-4-08-881758-3）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13792/JC13792.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>93</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>惠比壽鎮的人氣王</p><br>（えびす町の人気者）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2019年7月25日</p><br>（2019年7月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-957-26-3745-6</p><br>（978-4-08-881877-1）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13793/JC13793.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>94</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>士兵的夢想</p><br>（兵どもが夢）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2019年10月24日</p><br>（2019年10月4日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-957-26-4139-2</p><br>（978-4-08-882054-5）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13794/JC13794.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>95</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>御田的冒險</p><br>（おでんの冒険）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2020年2月6日</p><br>（2019年12月28日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-957-26-4615-1</p><br>（978-4-08-882169-6）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13795/JC13795.JPG" width="150px" height="200px"></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="卷數"><span><br><p>96</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>遇煮遇剮則更添韻味的御田是也</p><br>（煮えてなんぼのおでんに候）</span></div>
+            <div class="rwdtd" data-th="出版日期"><span><p>2020年5月4日</p><br>（2020年4月3日）</span></div>
+            <div class="rwdtd" data-th="ISBN"><span><p>978-957-26-5061-5</p><br>（978-4-08-882252-5）</span></div>
+            <div class="rwdtd" data-th="書籍封面"><span><img src="https://www.tongli.com.tw/ComicImages/Images/JC137/JC13796/JC13796.JPG" width="150px" height="200px"></span></div>
+        </div>
+    </div>
+    <h1><font color="blue">動畫集數列表</font></h1>
+    <div class="rwdtable">
+        <div class="rwdtr">
+            <div class="rwdth">季別</div>
+            <div class="rwdth">篇章</div>
+            <div class="rwdth">集數</div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="季別"><span><p>1st</p></span></div>
+            <div class="rwdtd" data-th="篇章"><span><p>東方藍篇</p></span></div>
+            <div class="rwdtd" data-th="集數"><span><p>1～61集</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="季別"><span><p>2nd</p></span></div>
+            <div class="rwdtd" data-th="篇章"><span><p>前往偉大的航道篇</p></span></div>
+            <div class="rwdtd" data-th="集數"><span><p>62～77集</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="季別"><span><p>3rd</p></span></div>
+            <div class="rwdtd" data-th="篇章"><span><p>冬島篇(磁鼓島篇)</p></span></div>
+            <div class="rwdtd" data-th="集數"><span><p>78～92集</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="季別"><span><p>4th</p></span></div>
+            <div class="rwdtd" data-th="篇章"><span><p>阿拉巴斯坦篇</p></span></div>
+            <div class="rwdtd" data-th="集數"><span><p>93～130集</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="季別"><span><p>5th</p></span></div>
+            <div class="rwdtd" data-th="篇章"><span><p>動畫原創篇</p></span></div>
+            <div class="rwdtd" data-th="集數"><span><p>131～143集</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="季別"><span><p>6th</p></span></div>
+            <div class="rwdtd" data-th="篇章"><span><p>空島篇</p></span></div>
+            <div class="rwdtd" data-th="集數"><span><p>144～195集</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="季別"><span><p>7th</p></span></div>
+            <div class="rwdtd" data-th="篇章"><span><p>長環長島篇</p></span></div>
+            <div class="rwdtd" data-th="集數"><span><p>196～228集</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="季別"><span><p>8th</p></span></div>
+            <div class="rwdtd" data-th="篇章"><span><p>水之七島篇</p></span></div>
+            <div class="rwdtd" data-th="集數"><span><p>229～263集</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="季別"><span><p>9th</p></span></div>
+            <div class="rwdtd" data-th="篇章"><span><p>司法島篇</p></span></div>
+            <div class="rwdtd" data-th="集數"><span><p>264～336集</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="季別"><span><p>10th</p></span></div>
+            <div class="rwdtd" data-th="篇章"><span><p>恐怖三桅帆船篇</p></span></div>
+            <div class="rwdtd" data-th="集數"><span><p>337～381集</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="季別"><span><p>11th</p></span></div>
+            <div class="rwdtd" data-th="篇章"><span><p>夏波帝諸島篇</p></span></div>
+            <div class="rwdtd" data-th="集數"><span><p>382～407集</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="季別"><span><p>12th</p></span></div>
+            <div class="rwdtd" data-th="篇章"><span><p>女人島篇</p></span></div>
+            <div class="rwdtd" data-th="集數"><span><p>408～421</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="季別"><span><p>13th</p></span></div>
+            <div class="rwdtd" data-th="篇章"><span><p>推進城篇</p></span></div>
+            <div class="rwdtd" data-th="集數"><span><p>422～429集</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="季別"><span><p>14th</p></span></div>
+            <div class="rwdtd" data-th="篇章"><span><p>頂上戰爭篇</p></span></div>
+            <div class="rwdtd" data-th="集數"><span><p>459～516集</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="季別"><span><p>15th</p></span></div>
+            <div class="rwdtd" data-th="篇章"><span><p>魚人島篇</p></span></div>
+            <div class="rwdtd" data-th="集數"><span><p>517～578集</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="季別"><span><p>16th</p></span></div>
+            <div class="rwdtd" data-th="篇章"><span><p>龐克哈薩特篇</p></span></div>
+            <div class="rwdtd" data-th="集數"><span><p>579～628集</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="季別"><span><p>17th</p></span></div>
+            <div class="rwdtd" data-th="篇章"><span><p>多雷斯羅薩篇</p></span></div>
+            <div class="rwdtd" data-th="集數"><span><p>629～750集</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="季別"><span><p>18th</p></span></div>
+            <div class="rwdtd" data-th="篇章"><span><p>佐烏篇</p></span></div>
+            <div class="rwdtd" data-th="集數"><span><p>751～782集</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="季別"><span><p>19th</p></span></div>
+            <div class="rwdtd" data-th="篇章"><span><p>圓蛋糕島篇</p></span></div>
+            <div class="rwdtd" data-th="集數"><span><p>783～890集</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="季別"><span><p>20th</p></span></div>
+            <div class="rwdtd" data-th="篇章"><span><p>和之國篇</p></span></div>
+            <div class="rwdtd" data-th="集數"><span><p>891～播出中</p></span></div>
+        </div>
+    </div>  
+    <h1><font color="blue">劇場版</font></h1>
+    <div class="rwdtable">
+        <div class="rwdtr">
+            <div class="rwdth">編號</div>
+            <div class="rwdth">標題</div>
+            <div class="rwdth">上映日期</div>
+            <div class="rwdth">票房</div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>M01</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《黃金島大冒險》</p></span></div>
+            <div class="rwdtd" data-th="上映日期"><span><p>2000年3月4日</p></span></div>
+            <div class="rwdtd" data-th="票房"><span><p>21.6億日圓</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>M02</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《發條島大冒險》</p></span></div>
+            <div class="rwdtd" data-th="上映日期"><span><p>2001年3月3日</p></span></div>
+            <div class="rwdtd" data-th="票房"><span><p>30億日圓</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>M03</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《珍獸島的喬巴王國》</p></span></div>
+            <div class="rwdtd" data-th="上映日期"><span><p>2002年3月2日</p></span></div>
+            <div class="rwdtd" data-th="票房"><span><p>20億日圓</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>M04</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《死亡盡頭大冒險》</p></span></div>
+            <div class="rwdtd" data-th="上映日期"><span><p>2003年3月1日</p></span></div>
+            <div class="rwdtd" data-th="票房"><span><p>20億日圓億日圓</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>M05</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《被詛咒的聖劍》</p></span></div>
+            <div class="rwdtd" data-th="上映日期"><span><p>2004年3月6日</p></span></div>
+            <div class="rwdtd" data-th="票房"><span><p>18億日圓億日圓</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>M06</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《祭典男爵與神祕島》</p></span></div>
+            <div class="rwdtd" data-th="上映日期"><span><p>2005年3月5日</p></span></div>
+            <div class="rwdtd" data-th="票房"><span><p>12億日圓億日圓</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>M07</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《機關城的機械巨兵》</p></span></div>
+            <div class="rwdtd" data-th="上映日期"><span><p>2006年3月4日</p></span></div>
+            <div class="rwdtd" data-th="票房"><span><p>9億日圓</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>M08</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《阿拉巴斯坦戰記》</p></span></div>
+            <div class="rwdtd" data-th="上映日期"><span><p>2007年3月3日</p></span></div>
+            <div class="rwdtd" data-th="票房"><span><p>9億日圓</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>M09</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《喬巴身世之謎》</p></span></div>
+            <div class="rwdtd" data-th="上映日期"><span><p>2008年3月1日</p></span></div>
+            <div class="rwdtd" data-th="票房"><span><p>9.2億日圓</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>M10</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《航海王電影：強者天下》</p></span></div>
+            <div class="rwdtd" data-th="上映日期"><span><p>2009年12月12日	</p></span></div>
+            <div class="rwdtd" data-th="票房"><span><p>48億日圓</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>M11</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《3D：追逐草帽大冒險》</p></span></div>
+            <div class="rwdtd" data-th="上映日期"><span><p>2011年3月19日</p></span></div>
+            <div class="rwdtd" data-th="票房"><span><p>7.9億日圓</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>M12</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《航海王電影：Z》</p></span></div>
+            <div class="rwdtd" data-th="上映日期"><span><p>2012年12月15日</p></span></div>
+            <div class="rwdtd" data-th="票房"><span><p><font color="red">68.7億日圓</font></p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>M13</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《航海王電影：GOLD》</p></span></div>
+            <div class="rwdtd" data-th="上映日期"><span><p>2016年7月23日</p></span></div>
+            <div class="rwdtd" data-th="票房"><span><p>51.8億日圓</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>M14</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《航海王：奪寶爭霸戰》</p></span></div>
+            <div class="rwdtd" data-th="上映日期"><span><p>2019年8月9日</p></span></div>
+            <div class="rwdtd" data-th="票房"><span><p>55億日圓</p></span></div>
+        </div>
+    </div> 
+    <h1><font color="blue">特別篇</font></h1>
+    <div class="rwdtable">
+        <div class="rwdtr">
+            <div class="rwdth">編號</div>
+            <div class="rwdth">標題</div>
+            <div class="rwdth">首播日期</div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>SP1</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《海肚臍篇》</p></span></div>
+            <div class="rwdtd" data-th="首播日期"><span><p>2000年12月20日</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>SP2</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《大海原篇》</p></span></div>
+            <div class="rwdtd" data-th="首播日期"><span><p>2003年4月6日</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>SP3</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《大舞台篇》</p></span></div>
+            <div class="rwdtd" data-th="首播日期"><span><p>2003年12月14日</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>SP4</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《海賊時代劇》</p></span></div>
+            <div class="rwdtd" data-th="首播日期"><span><p>2005年12月18日</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>SP5</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《娜美篇》</p></span></div>
+            <div class="rwdtd" data-th="首播日期"><span><p>2012年8月25日</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>SP6</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《魯夫篇》</p></span></div>
+            <div class="rwdtd" data-th="首播日期"><span><p>2012年12月15日</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>SP7</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《梅利篇》</p></span></div>
+            <div class="rwdtd" data-th="首播日期"><span><p>2013年8月24日</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>SP8</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《3D2Y篇》</p></span></div>
+            <div class="rwdtd" data-th="首播日期"><span><p>2014年8月30日</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>SP9</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《薩波篇》</p></span></div>
+            <div class="rwdtd" data-th="首播日期"><span><p>2015年8月22日</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>SP10</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《迷霧島》</p></span></div>
+            <div class="rwdtd" data-th="首播日期"><span><p>2015年12月19日</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>SP11</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《黃金之心》</p></span></div>
+            <div class="rwdtd" data-th="首播日期"><span><p>2016年7月16日</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>SP12</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《東方藍篇》</p></span></div>
+            <div class="rwdtd" data-th="首播日期"><span><p>2017年8月26日</p></span></div>
+        </div>
+        <div class="rwdtr">
+            <div class="rwdtd" data-th="編號"><span><p>SP13</p></span></div>
+            <div class="rwdtd" data-th="標題"><span><p>《空島篇》</p></span></div>
+            <div class="rwdtd" data-th="首播日期"><span><p>2018年8月25日</p></span></div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <a href="http://127.0.0.1:5500/index.html"  ><font color="white">回首頁</font></a>
+        <p>&copy; 2020/7/2 By 郭亭宜（B10856024） </p>
+   </div>
+</body>
+</html>
